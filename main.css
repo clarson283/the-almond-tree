@@ -50,3 +50,17 @@
 	height: 320px;
 }
 
+#about-jess {
+	padding-top: 20px;
+}
+
+#about-jess img {
+	width: 220px;
+}
+
+#about-jess h1 {
+	font-size: 22px;
+	font-family: Arial;
+	letter-spacing: 2px;
+}
+
