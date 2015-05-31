@@ -1,6 +1,8 @@
 .nav {
 	display: inline-block;
 	vertical-align: bottom;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #nav-stuff {
