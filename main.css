@@ -5,6 +5,19 @@
 	padding-right: 15px;
 }
 
+.navbar-default {
+	background-color: white;
+	border-color: white;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle {
+	border: 0;
+}
+
 #nav-stuff {
 	text-align: center;
 	padding-top: 15px;
@@ -40,8 +53,6 @@
 	font-size: 16px;
 }
 
-
-
 .container.photo-stuff {
 	background-image: url('images/biking.jpg');
 	background-size: cover;
@@ -62,5 +73,12 @@
 	font-size: 22px;
 	font-family: Arial;
 	letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+	#logo {
+		float:left;
+		display: block
+	}
 }
 
